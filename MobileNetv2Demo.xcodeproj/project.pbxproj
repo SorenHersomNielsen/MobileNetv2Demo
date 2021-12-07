@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2A168D7275F4E6800832A23 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A168D6275F4E6800832A23 /* Extension.swift */; };
+		A2A168D9275F4F4F00832A23 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A2A168D8275F4F4F00832A23 /* MobileNetV2.mlmodel */; };
 		A2A8EC3F275E65A800F2CF57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8EC3E275E65A800F2CF57 /* AppDelegate.swift */; };
 		A2A8EC41275E65A800F2CF57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8EC40275E65A800F2CF57 /* SceneDelegate.swift */; };
 		A2A8EC43275E65A800F2CF57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A8EC42275E65A800F2CF57 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2A168D6275F4E6800832A23 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A2A168D8275F4F4F00832A23 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		A2A8EC3B275E65A800F2CF57 /* MobileNetv2Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileNetv2Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A8EC3E275E65A800F2CF57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2A8EC40275E65A800F2CF57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 		A2A8EC3D275E65A800F2CF57 /* MobileNetv2Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A2A168D8275F4F4F00832A23 /* MobileNetV2.mlmodel */,
 				A2A8EC3E275E65A800F2CF57 /* AppDelegate.swift */,
 				A2A8EC40275E65A800F2CF57 /* SceneDelegate.swift */,
 				A2A8EC42275E65A800F2CF57 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				A2A8EC47275E65AA00F2CF57 /* Assets.xcassets */,
 				A2A8EC49275E65AA00F2CF57 /* LaunchScreen.storyboard */,
 				A2A8EC4C275E65AA00F2CF57 /* Info.plist */,
+				A2A168D6275F4E6800832A23 /* Extension.swift */,
 			);
 			path = MobileNetv2Demo;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				A2A8EC43275E65A800F2CF57 /* ViewController.swift in Sources */,
 				A2A8EC3F275E65A800F2CF57 /* AppDelegate.swift in Sources */,
 				A2A8EC41275E65A800F2CF57 /* SceneDelegate.swift in Sources */,
+				A2A168D9275F4F4F00832A23 /* MobileNetV2.mlmodel in Sources */,
+				A2A168D7275F4E6800832A23 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
